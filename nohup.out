@@ -1,0 +1,851 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 270-015-818
+192.168.1.87 - - [16/Jun/2021 01:12:32] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 01:12:34] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:12:34] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 01:12:35] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:12:35] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:12:41] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 01:12:43] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:12:43] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 01:12:44] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:12:44] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:17:56] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:17:57] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 01:17:59] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:17:59] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 01:18:00] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:18:00] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:24:27] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:24:27] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 01:24:27] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 01:24:27] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 01:24:27] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 01:24:29] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:24:29] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:24:32] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 01:24:32] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 01:24:32] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 01:24:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 01:24:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 01:24:33] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:24:33] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 01:24:35] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 01:24:36] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 06:55:59] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 06:56:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:36:35] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 07:36:35] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:36:35] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:36:35] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:36:35] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:48:48] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 07:48:48] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:48:48] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:48:48] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:48:48] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:58:45] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 07:58:45] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:58:45] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:58:45] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [16/Jun/2021 07:58:45] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 07:58:46] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 07:58:46] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 07:58:49] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 07:58:49] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 20:11:46] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [16/Jun/2021 20:11:46] "GET /static/style.css HTTP/1.1" 304 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 20:11:53] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 20:11:53] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 20:11:55] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 20:11:55] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 20:12:05] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 20:12:05] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 20:12:10] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 20:12:10] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 20:12:12] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 20:12:12] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 20:12:14] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 20:12:14] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 22:56:45] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 22:56:45] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [16/Jun/2021 23:55:31] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 23:55:31] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [16/Jun/2021 23:55:33] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [16/Jun/2021 23:55:33] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [17/Jun/2021 02:09:32] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [17/Jun/2021 02:09:32] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [17/Jun/2021 02:09:32] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [17/Jun/2021 02:09:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [17/Jun/2021 02:09:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [17/Jun/2021 02:09:34] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [17/Jun/2021 02:09:34] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [18/Jun/2021 22:15:28] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [18/Jun/2021 22:15:28] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [18/Jun/2021 22:15:28] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [18/Jun/2021 22:15:28] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [18/Jun/2021 22:15:28] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [18/Jun/2021 22:15:28] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [18/Jun/2021 22:15:29] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [18/Jun/2021 22:15:29] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [18/Jun/2021 22:15:32] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [18/Jun/2021 22:15:32] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [19/Jun/2021 00:17:55] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [19/Jun/2021 00:17:55] "GET(/ HTTP¯1.1"$200 -
+1=2.168.18 - % 19/Jun/202± 00*27:26] "GET /!HTTD/1.1" 200 -
+1=2.168&q.87 - - [19/Kun/*021 "0::7:26] "GET!ápple%touch-icon-120Xq00-qreco-pored.qng HTTP/1.1" up4 -
+19".168.1/87 - - [19/Hun/2021(40:r7:26] "GDT /apðlm-touch=icon-120x120.png HTTP/1.1" 504 -
+192.168.1n8 - - [19/Jun/2021 02:27:26] "GET /a4ple-touch-icon.pnf HTTP/1.1" 404 -
+U9".168.1.87 - - [19/Jun/2021 00:27:22] "CE(/appld-touch-icon.pno HTTP/1.1  ´8$"'
+Current stItu3 For huâ 11 [0424º=514, USR 0>00, `ports, ppps]
+  Port!2: 010p power
+Se^t poWer ofF reqwestNe÷ status ¦or hub 1-1 [0424:9514, USB 2. p, 5 ports, rpps]
+  Port 0: 0000"off192.968.3.87 -0- [19/Jun'2021!00:27z27] "POST 'ogn$HTTP'1.1" 3p2 -
+192.160&1.87 -$- _09Jun/2021 00:27:27] "GUT /"HTTP'1.1" 200-
+ * Se2vinc`Flawk app "app" (lazy loadibg)
+ * Dnvironmen4: psoductio.‹   WARNING: Do$lot use`the Devålopment0server iN a qroduCtion envirooment.
+   Use$a productIon _SGI servmr ilstead*
+ * Debqç mod%:(on
+Trakebacï((mosu recent call last):
+  FilE "app.py2, láne 25, ‰n <module>    app.òun(debug=True, host='0&0.0,0'!
+  File "-usr/ìib/python3/dis|%pack`ges/flaskqpp.p9", line 943, in Run
+(%  run_sample(howt, prt, sel$,0**optyons)J $File "/usr/lIb/pxthoî3?di3t-Pac+ages/wer{reug/serving.py", ìine 795- in Run_sémple
+   !w.b)nd(get_sockaddr(hosôname, port, address_faiily)!
+OSErr/r: [Errjo )8] Afdòews already in use
+196.148.1.65  - Û²0/Jun/2021 13:03>17] "GET - HTTP/q.1" 300 -
+192.168.9.65 - - [²0Jun.2021 13: 3:18] "GET 'stauic/stylencss HTTP/1.±" 200 -
+C}srenv stavus(for hub 1-1 [044:9514, USB"2.00, 5`po2ts, ppps]
+  Port 2: 0000 offseft power on!sequ%st
+New swatus fos hub`1-± [0424:9515, USJ¤2.00,05 pksts,0ppps]
+  Port ²: 0100 pmwår
+192.16x.q.65 % - [b0/Jun¿r:21 13:03:19] "POST /on HTÔP/1.1" 302 -
+192,368.165 - - [28¯Jun/2 21a13:03:19] "GET / HTTP/1.1" 200 -
+C52vent status for hub(1-1 [0424:=4±4l UWB 2.00¬ 5 ports pðps]
+  pkrt 6: 0100(powes
+Sent pïwer of& 2Upuert
+New stadus nor heb 1-1 [0424:9514l UB 2.00,(5 ports, ppps]
+  Port 2: 1ð00 nff
+192n1>8/1.65 - - [20Jun/0021 13:03:21] "POST /off HTTP/1.1" 31"`-
+19r.168®1f65 - - K20/Jun/2021 13:03225] "GUT / HTTP/1>1" 600p,Awrre~t(status gor hub 1-1 [4424:9514, USB 0,00% 5 rpt3, pðPs]
+  Port 2: 0000 off
+Seft(power on Requesô
+lew status for hub 1-1 {026:9534, USB 2®00,"5 ports,!pÐPs]
+  port 22 03 0 ôower
+192.168®1.65 m - [20/JuN¯2021 13:03:26] "PNST /on HTTP'0.1  202 -
+992.168.1.65 - - [20/Jun/2021 1:°326] "GET / HTTP/3.1" 20 
+Current spatus for hub 1-10[ 024:y514, US@!2.00¬ 5 ports,(ppps]
+  Xort 2> 010° pnwer
+W%nt powe` off0requesT
+New(stavus &or hõb¢1-1 [04r4:954- UQB 2.00, 5 poöôs, ppps]
+  Port 2j 0000 nff
+1¹3.168.1.65$-)-"[r0/Jun/2021 13:03:28] "PST ¯off HTT@/1<1"0302 -
+182.16.1.65 -0m [20/Jun/2021 13:03:28] "GET /$ÈTTP/1.1" 84 -
+192.168.1.,6 - - [20/Jan/2021 13833:14] "GET$o HTTR/1.1" 200 -
+°92.168.3.86 - - [20/JWno2021 13:33:54]`"GT /static/style.bss HT\P/1.1" 324 -
+19²,068.1.87 - - [20¯J5n+3221 q6z35º35] "GeT /$HTTP/1&1" 200 -
+192.168.1.87 - -àY20/Jwn20:1 16:25:35] "GET /apple-to}cj-icon-120x!2p-xregomposed&png HTTP/11" 404 -J192.168l1,x' - - [2p+Bun/2021 17:35:35] "GET /apple-touch-icnn-921x120.rnf!HTTP/1.1 04 -
+192.168.1.87 - - [20/Jun/2021 96:35:35] "GET /apple)touc(-icon.png HTT/1.0" 404 %
+192.!6¸.1.87 - - [20/Jun/0021 16:35:s5] "GET0/apple-touch-icïo.png!HTTP/1.1" 484 -
+Current 3tatuc for hu` 1-1 Û0424:9%14, USB 2.00, µ por4s, ppðs]
+  Por4 r: 0000 /&f
+SEnt power ov request
+New sta|us for huf 1-1 [0424:9514, USB 2. 0, 5 ports, pðps]
+  Port 2: 0100 powår
+192.168.0n87 - - Û20/Jun/2021 1v:35:37] "POST /on HTTP/1.1" 30² -
+192.168.1.87 - - [²0/Jun/R021 16:3µ:38] "GUT / HTTP/1.1" :00 -
+Cus2ent status for`hub!±­1 [0424:y554, USC 2. 0. 5 port[, ppps]
+  P/rt 2: 0100 towEr
+Reft power ofn request
+Nåw`statuS for xub !-1$[0424:9514, USB 2.00,05 ports, ppps]
+  ort 2: 00p4 off
+192.38.1.:7 m - [20/Jun/"02!16:35:40] "POST /off XTTPl1.1" 300 -
+192.168.1.87 - - [20/Nun/2021 16;35>40] "OET / HTTP/1.1& 200 -
+QusreNt status0for hub 1-1 [0425:;514,!uSB 2.00, 5 ports, 0pts]
+! Pnrt 2: 000!off
+Se.t power on request
+Nåv sta|us for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [20/Jun/2021 16:35:46] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [20/Jun/2021 16:35:46] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [20/Jun/2021 16:35:48] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [20/Jun/2021 16:35:48] "GET / HTTP/1.1" 200 -
+192.168.1.76 - - [20/Jun/2021 21:59:57] "GET / HTTP/1.1" 200 -
+192.168.1.76 - - [20/Jun/2021 21:59:58] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.76 - - [20/Jun/2021 21:59:58] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.76 - - [20/Jun/2021 21:59:59] "POST /on HTTP/1.1" 302 -
+192.168.1.76 - - [20/Jun/2021 21:59:59] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.76 - - [20/Jun/2021 22:00:09] "POST /off HTTP/1.1" 302 -
+192.168.1.76 - - [20/Jun/2021 22:00:09] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [20/Jun/2021 22:09:31] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [20/Jun/2021 22:09:32] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [20/Jun/2021 22:09:32] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [20/Jun/2021 22:09:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [20/Jun/2021 22:09:32] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [20/Jun/2021 22:09:33] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [20/Jun/2021 22:09:33] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [20/Jun/2021 22:27:43] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [20/Jun/2021 22:27:43] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [20/Jun/2021 22:27:43] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [20/Jun/2021 22:27:43] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [20/Jun/2021 22:27:43] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [20/Jun/2021 22:27:44] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [20/Jun/2021 22:27:44] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [20/Jun/2021 22:27:48] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [20/Jun/2021 22:27:48] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [20/Jun/2021 22:27:49] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [20/Jun/2021 22:27:49] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [21/Jun/2021 23:52:53] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [21/Jun/2021 23:52:53] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [21/Jun/2021 23:52:53] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [21/Jun/2021 23:52:53] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [21/Jun/2021 23:52:53] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [21/Jun/2021 23:52:53] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [21/Jun/2021 23:52:54] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [21/Jun/2021 23:52:54] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [22/Jun/2021 00:45:55] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [22/Jun/2021 00:45:55] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [22/Jun/2021 00:45:55] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [22/Jun/2021 00:45:55] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [22/Jun/2021 00:45:55] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [22/Jun/2021 00:45:57] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [22/Jun/2021 00:45:57] "GET / HTTP/1.1" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 270-015-818
+192.168.1.87 - - [23/Jun/2021 09:03:11] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [23/Jun/2021 09:03:11] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.87 - - [23/Jun/2021 09:03:12] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 09:03:13] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:13] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [23/Jun/2021 09:03:15] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:15] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 09:03:17] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:17] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [23/Jun/2021 09:03:20] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:21] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 09:03:22] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:23] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [23/Jun/2021 09:03:25] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:25] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 09:03:27] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:27] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 09:03:33] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:33] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [23/Jun/2021 09:03:39] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:39] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 09:03:40] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:40] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [23/Jun/2021 09:03:43] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 09:03:43] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [23/Jun/2021 09:04:08] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [23/Jun/2021 09:04:08] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 09:04:08] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 09:04:08] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 09:04:08] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.88 - - [23/Jun/2021 09:37:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 22:50:55] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [23/Jun/2021 22:50:55] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [23/Jun/2021 22:50:55] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 22:50:55] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 22:50:55] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [23/Jun/2021 22:50:55] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [23/Jun/2021 22:50:56] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [23/Jun/2021 22:50:56] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [24/Jun/2021 01:18:54] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [24/Jun/2021 01:18:55] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [24/Jun/2021 01:18:55] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [24/Jun/2021 01:18:55] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [24/Jun/2021 01:18:55] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [24/Jun/2021 01:18:56] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [24/Jun/2021 01:18:56] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [24/Jun/2021 01:19:01] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [24/Jun/2021 01:19:01] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [24/Jun/2021 01:19:03] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [24/Jun/2021 01:19:03] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [24/Jun/2021 20:02:10] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [24/Jun/2021 20:02:10] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [24/Jun/2021 20:02:11] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [24/Jun/2021 20:02:11] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [24/Jun/2021 20:02:11] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [24/Jun/2021 20:02:11] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [24/Jun/2021 20:02:11] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [24/Jun/2021 20:02:12] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [25/Jun/2021 00:09:46] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [25/Jun/2021 00:09:46] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [25/Jun/2021 00:09:46] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [25/Jun/2021 00:09:46] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [25/Jun/2021 00:09:46] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [25/Jun/2021 00:09:47] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [25/Jun/2021 00:09:47] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [25/Jun/2021 22:13:04] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [25/Jun/2021 22:13:04] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [25/Jun/2021 22:13:04] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [25/Jun/2021 22:13:04] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [25/Jun/2021 22:13:04] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [25/Jun/2021 22:13:04] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [25/Jun/2021 22:13:05] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [25/Jun/2021 22:13:05] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [25/Jun/2021 22:13:14] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [25/Jun/2021 22:13:15] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [25/Jun/2021 22:13:15] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [25/Jun/2021 22:26:33] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [25/Jun/2021 22:26:33] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [25/Jun/2021 22:26:34] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [25/Jun/2021 22:26:34] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [26/Jun/2021 04:06:30] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [26/Jun/2021 04:06:30] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [26/Jun/2021 04:06:30] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [26/Jun/2021 04:06:30] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [26/Jun/2021 04:06:30] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [26/Jun/2021 04:06:31] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [26/Jun/2021 04:06:31] "GET / HTTP/1.1" 200 -
+192.168.1.65 - - [27/Jun/2021 21:54:18] "GET / HTTP/1.1" 200 -
+192.168.1.65 - - [27/Jun/2021 21:54:18] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.65 - - [27/Jun/2021 21:54:18] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.65 - - [27/Jun/2021 21:54:19] "POST /on HTTP/1.1" 302 -
+192.168.1.65 - - [27/Jun/2021 21:54:19] "GET / JTTP/1.1" 000-
+192.168.1.65 - - [27/Jun/001 21:14:31] "WET / HDTP/1*1" 200 -
+Current st`tus for hõb 1-1 [0424:9514, UCB 2î00,05 posts, p`ps]
+  Post 2: °!00 power
+Sent power off reqwest
+ew status for hub 1-1 [0425*9514, USB 2.14. 5 ports, ppps]
+  Port 2: 0000 off
+112.178.1.65 - m [27/Jun.2021 21:54:32] "POST /off HTTP/0.1" 302 -
+192.±68.1.65 - - [27/Jun/2021 2q:54:32] "GET / HTTP/1.3" 2°0 -
+192.168.1.87 -(- [27.Jun/202±$23:23*35] "GET / HTTX/1.1 200 -
+19:.168.1.85 - - [27/Jqn/20"1 23:23*35] "GET /static/suyle.css HTTP/1.1" 200 -
+192&168.1.x7 - - [27/Jun/2021 23:23:35] "WET(/apple-uouch-icon-120x120-precompoóed.png HTTP/1®1" 404 -
+192.168,.86 - - [27/Jun/2021 23:23:35] "GET /apple-touch-icon-120x120.png HTTP'1.1" 4040-
+192.168.1.87 - - [27/Jun/2021 23:23:35] "GET /applm-touch-icon.png HTT@/®1" 404 -
+192.168.1.87 - - [25/Jun/2021 23:2!º35] "WET /a`ple-pmuch­icof.png HTVP/1.1" 404 -
+Cuzrunt status for!èub 1-3 [0424:9514, USB ².00, 5 ports¬ ppps]*  Port`2:$0012$off
+Sent power on reqõest
+New status for `ub 1-1 [0424:814, USB 2.00, 5 port{, ppps]
+$ Port 3:!0100 powår
+192.168.1.87 - - [27/Jun/2021 23:23:36] "PÏST /on HTT@/1.1" 302 -
+192.168.1.87 - -`[27oJun/2021 23:23:36} "GET / HTTP/1.1" 200 -
+Currenu statws for hu# 1-1 [0424:514, USB 2.00< % pozts, ppps]
+  Port 2: 0100 q/wer
+sent power off request
+new stadus for hub01-1 [0424:9514< TSB 2.00, 5 por|s, ppps]
+  Port 2: 0000 off
+192.168.1.87 = - [38/Jun/2021 01:41:01] "POST /off"HTTP/1.1" 302`-193.q6x.1.87 , - [28/Jun.202 0q:41:01] "GET ¯ HuTT/1.1" 200 -
+192.168.1.8? - - 28/Jun/:821 2#:09:56U "ÇET / HTVP/1.1" 200 -
+192.168,1.8· - - [28/Jun/2021 23:09:56] "GET!/statkcostyle.crs HtTP/1.1" 304 -
+192.168.1.07 -  [28/Jun/2021 23:09:56] "GET /aqple-towch-icon-12 x120-prucomposed.png HTTP/1*1  404 m
+192.168.1.87 - - [r8/Jun/2021 23:09:54] "GET /applm-toubh-ison-120x120.pnf HPTP/1. " 404 -Š1y2.178.1.87 - - 28/Jun/2061 23:09:56] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.16.1.87 - - [28/Jun¯2021 23:09:56U ¢ET /arple-tguch-icon.png HTTP1.1" 404 -
+Current stqtus for `ub 1-1 [0420:;514, USB 2.00, 5 ports, ppps]
+  pnrt 2: 0000 ïFfŠÓent power on rdqueqt
+Jew"stetus for hub 1-1 [0424:9514, USB 2.00< µ portS, ppps]
+ `PoRt 2: 0100 pïwer
+192.168.1.¸7 - - [20/Jun/2021 23:09:57]  POST /ïn HTTP/0.1" 302 -
+192.168.1.87(- - [28?Jun/2021 23:09:53] "GT / HTTP/1.1" 200 -
+Current statõs for iub 1-1 [0424:9515, USB 2.00,  portq, ppps]
+  Port r: 0100 power
+Sent power off rmquest
+New status for hub 1-1 [0424:9514, USB$2.00, 5 p/rvs, ppps]
+  Rort 2: 0 00 off
+192.968.1n87 - - [28/Jun/2029 23:!0:33] "POWT /off HTUP/1.1" 302 -
+1¹2.168.1.87 - - ["8/Jun/2021 23:1p:33 "GET/ ITTP/1.1" 200 -
+192&168.1.87 - - [29/Jun/2021 0 :²4:10] "OET /(HTTP/1.1" 200 -
+192.169.187 , - [29+Jun/*021 00:24:10]("GET /appìe-touch-icon-120x120-precomposed.png HTTQ/1.1" 404 -
+192.168.1.8· - - [29/Jun/2029 00:24:10] "GET /apple-pouch-i#on-120x120.tng HTTP'1.1 ´04 -
+192>168.1.87 -  [21/Jun/2021 00:"4:10] "GET /apPle-touch-icon.png JTTP/1.1" 404 -
+192.168®1.87 - - [29/jun/2021 0°:24:10] "GET!/atple-touch-hcon/pnc HTTP/5,1" 404 -C}rrent status for hub 1-! [042´:9514, USB 0.04, 5 ports, PpPs]
+  Port 2: 0000 offSent power¨on reqwest
+New qtatus for hub 1-1 [0426:9514, USB 2.°4, 5 pïrtc, ptps]
+  Port 2:`0100 power
+192.169.1®87 - = [2)/Jun/2p21 0°:25211] 2POST /on HTTP/1.1" 32 -
+198.16¸.1*87 - - _29/Jun/2029 00:24:11] "FET / HTTP/0.1" 200 -
+192.168.±.65 - - [29/Jun/2021 0p:33:53] "GET / HTTP/1.1" 200 -192.168.1.65 - - [29'Ju~/b021 00:33:54] "GET /static/style.css HTtR/1.1" 200 -
+592.168.1.87 - - [2¹/Jun/²021 01:58:43] "GET / HTTP/1.1" 200 -
+192.1v8.1n870- - ["9/Jun'221!01:58:43] "GET /apple-|ouch-icon-520x120-precomposed&png HTTP/1.1& 40$ -
+192.168*1.x7 - - [29/Jun/:021 01:58:43] "GET /apple-touch-icon-120x120.pnï HTTP/1.1" 404 -
+192.16¸&1.87 - - [29/Jun/2021 01:58:43]("GET /apple-tnuc(-icon*png HTTP/1.1" 404 -
+19:.168.1,87 - - [29/Jun/2021  1:58:43] "GET .apple-to}ch-icon.png HTTP/1.1" 404 -
+Currunt sta4us for hub 1-1 _0420:9514, USÂ 2.°0, 7 q/rts, ppðs]
+  Port 2: 0100 power
+Sent power off request
+Newdstatus bor hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [29/Jun/2021 01:58:44] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [29/Jun/2021 01:58:44] "GET / HTTP/1.1" 200 -
+192.168.1.88 - - [30/Jun/2021 00:42:19] "GET / HTTP/1.1" 200 -
+192.168.1.88 - - [30/Jun/2021 00:42:19] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.88 - - [30/Jun/2021 00:42:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:22] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:22] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:25] "GET /apple-touch-icon-152x152-precomposed.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:25] "GET /apple-touch-icon-152x152.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:25] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:25] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:33] "GET / HTTP/1.1" 200 -
+192.168.1.88 - - [30/Jun/2021 00:42:33] "GET /apple-touch-icon-152x152-precomposed.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:33] "GET /apple-touch-icon-152x152.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:33] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.88 - - [30/Jun/2021 00:42:33] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.88 - - [30/Jun/2021 00:42:34] "POST /on HTTP/1.1" 302 -
+192.168.1.88 - - [30/Jun/2021 00:42:34] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.88 - - [30/Jun/2021 00:42:35] "POST /off HTTP/1.1" 302 -
+192.168.1.88 - - [30/Jun/2021 00:42:35] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.88 - - [30/Jun/2021 00:50:37] "POST /on HTTP/1.1" 302 -
+192.168.1.88 - - [30/Jun/2021 00:50:37] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.88 - - [30/Jun/2021 02:26:14] "POST /off HTTP/1.1" 302 -
+192.168.1.88 - - [30/Jun/2021 02:26:14] "GET / HTTP/1.1" 200 -
+192.168.1.88 - - [30/Jun/2021 17:10:44] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.88 - - [02/Jul/2021 05:07:01] "POST /on HTTP/1.1" 302 -
+192.168.1.88 - - [02/Jul/2021 05:07:01] "GET / HTTP/1.1" 200 -
+192.168.1.88 - - [02/Jul/2021 05:07:01] "GET /static/style.css HTTP/1.1" 304 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.88 - - [02/Jul/2021 05:47:09] "POST /off HTTP/1.1" 302 -
+192.168.1.88 - - [02/Jul/2021 05:47:09] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [02/Jul/2021 22:56:13] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [02/Jul/2021 22:56:14] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [02/Jul/2021 22:56:14] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [02/Jul/2021 23:26:04] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [02/Jul/2021 23:26:04] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [02/Jul/2021 23:38:08] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [02/Jul/2021 23:38:08] "GET / HTTP/1.1" 200 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [02/Jul/2021 23:42:18] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [02/Jul/2021 23:42:18] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [03/Jul/2021 19:28:34] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [03/Jul/2021 19:28:34] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [03/Jul/2021 19:28:34] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [03/Jul/2021 19:28:34] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [03/Jul/2021 19:28:34] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [03/Jul/2021 19:28:34] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [03/Jul/2021 19:28:35] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [03/Jul/2021 19:28:35] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [04/Jul/2021 02:44:44] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [04/Jul/2021 02:44:44] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [04/Jul/2021 02:44:44] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [04/Jul/2021 02:44:45] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [04/Jul/2021 02:44:45] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [04/Jul/2021 02:44:46] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [04/Jul/2021 02:44:46] "GET / HTTP/1.1" 200 -
+192.168.1.76 - - [04/Jul/2021 20:52:16] "GET / HTTP/1.1" 200 -
+192.168.1.76 - - [04/Jul/2021 20:52:16] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.76 - - [04/Jul/2021 20:52:16] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.76 - - [04/Jul/2021 20:52:18] "POST /on HTTP/1.1" 302 -
+192.168.1.76 - - [04/Jul/2021 20:52:18] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [05/Jul/2021 01:54:30] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [05/Jul/2021 01:54:30] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [05/Jul/2021 01:54:30] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [05/Jul/2021 01:54:30] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [05/Jul/2021 01:54:30] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [05/Jul/2021 01:54:30] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [05/Jul/2021 01:54:31] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [05/Jul/2021 01:54:31] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [07/Jul/2021 22:52:47] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [07/Jul/2021 22:52:47] "GET /static/style.css HTTP/1.1" 304 -
+192.168.1.87 - - [07/Jul/2021 22:52:47] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [07/Jul/2021 22:52:47] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [07/Jul/2021 22:52:47] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [07/Jul/2021 22:52:47] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.87 - - [07/Jul/2021 22:52:48] "POST /on HTTP/1.1" 302 -
+192.168.1.87 - - [07/Jul/2021 22:52:48] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [08/Jul/2021 05:12:16] "GET / HTTP/1.1" 200 -
+192.168.1.87 - - [08/Jul/2021 05:12:16] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 -
+192.168.1.87 - - [08/Jul/2021 05:12:16] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 -
+192.168.1.87 - - [08/Jul/2021 05:12:16] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+192.168.1.87 - - [08/Jul/2021 05:12:16] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+Sent power off request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+192.168.1.87 - - [08/Jul/2021 05:12:29] "POST /off HTTP/1.1" 302 -
+192.168.1.87 - - [08/Jul/2021 05:12:29] "GET / HTTP/1.1" 200 -
+192.168.1.65 - - [08/Jul/2021 20:13:44] "GET / HTTP/1.1" 200 -
+192.168.1.65 - - [08/Jul/2021 20:13:45] "GET /static/style.css HTTP/1.1" 200 -
+192.168.1.65 - - [08/Jul/2021 20:13:45] "GET /favicon.ico HTTP/1.1" 404 -
+Current status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0000 off
+Sent power on request
+New status for hub 1-1 [0424:9514, USB 2.00, 5 ports, ppps]
+  Port 2: 0100 power
+192.168.1.65 - - [08/Jul/2021 20:13:46] "POST /on HTTP/1.1" 302 -
+192.168.1.65 - - [08/Jul/2021 20:13:46] "GET / HTTP/1.1" 200 -
